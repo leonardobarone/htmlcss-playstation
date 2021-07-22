@@ -80,3 +80,19 @@ a {
 .header-right-desktop i {
     margin: 0px 5px;
 }
+/* HERO */
+#hero {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-color: green;
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn-hero {
+    color: white;
+    background-color: #cd3d0f;
+}
