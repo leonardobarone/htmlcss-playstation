@@ -1,8 +1,85 @@
+/* COMMON */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
 /* HEADER-TOP */
 .header-top {
     background-color: black;
 }
 .header-top img {
-    height: 15px;
+    width: 75px;
     margin: 10px;
+}
+/* HEADER-BOTTOM */
+.header-bottom {
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+/* LEFT */
+.header-bottom .play-logo {
+    width: 45px;
+}
+.header-bottom .left {
+    display: flex;
+    align-items: center;
+}
+.header-bottom .left ul {
+    padding-left: 20px;
+    margin: 0px;
+    align-items: center;
+    list-style: none;
+}
+.header-bottom .left li:not(:last-child) {
+    margin-right: 15px;
+}
+.header-bottom .left li a {
+    color: black;
+    font-size: 13px;
+}
+.header-bottom .left li a::after,
+.header-bottom .right a.my_paystation::after {
+    vertical-align: middle;
+    margin-left: 5px;
+    color: gray;
+    content: '\f078';
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+}
+/* RIGHT */
+.hamburger-menu {
+    font-size: 24px;
+    color: gray;
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.header-bottom .right a {
+    color: black;
+    font-size: 13px;
+}
+.btn {
+    font-size: 13px;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+.btn-header {
+    color: white;
+    background-color: #363636;
+}
+.btn-header:hover {
+    color: #363636;
+    background-color: white;
+    border: 1px solid black;
+}
+.header-bottom .right i {
+    vertical-align: middle;
+}
+.header-right-desktop button,
+.header-right-desktop i {
+    margin: 0px 5px;
 }
