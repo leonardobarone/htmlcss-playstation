@@ -5,19 +5,32 @@ body {
 a {
     text-decoration: none;
 }
+.btn {
+    font-size: 14px;
+    padding: 3px 9px;
+    border-radius: 20px;
+}
 /* HEADER-TOP */
 .header-top {
     background-color: black;
 }
 .header-top img {
     width: 75px;
-    margin: 10px;
 }
 /* HEADER-BOTTOM */
 .header-bottom {
     padding: 5px;
     background-color: #ffffff;
     border: 1px solid black;
+}
+.header-bottom .left li a::after,
+.header-bottom .right a.account::after {
+    vertical-align: middle;
+    margin-left: 5px;
+    color: gray;
+    content: '\f078';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
 }
 /* LEFT */
 .header-bottom .play-logo {
@@ -28,27 +41,16 @@ a {
     align-items: center;
 }
 .header-bottom .left ul {
-    padding-left: 20px;
+    padding-left: 15px;
     margin: 0px;
-    align-items: center;
     list-style: none;
+    font-size: 14px;
 }
 .header-bottom .left li:not(:last-child) {
     margin-right: 15px;
 }
 .header-bottom .left li a {
     color: black;
-    font-size: 13px;
-}
-.header-bottom .left li a::after,
-.header-bottom .right a.my_paystation::after {
-    vertical-align: middle;
-    margin-left: 5px;
-    color: gray;
-    content: '\f078';
-    display: inline-block;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 800;
 }
 /* RIGHT */
 .hamburger-menu {
@@ -60,12 +62,7 @@ a {
 }
 .header-bottom .right a {
     color: black;
-    font-size: 13px;
-}
-.btn {
-    font-size: 13px;
-    padding: 3px 10px;
-    border-radius: 20px;
+    font-size: 14px;
 }
 .btn-header {
     color: white;
