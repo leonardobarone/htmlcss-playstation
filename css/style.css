@@ -109,7 +109,6 @@ a {
     display: flex;
     align-items: flex-end;
     height: 500px;
-    background-color: green;
     background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,6 +152,9 @@ a {
 .ps5-image img {
     width: 600px;
 }
+.ps5-objects {
+    margin-bottom: 50px;
+}
 .ps5-objects [class*="col"] {
     padding: 5px;
 }
@@ -169,4 +171,24 @@ a {
 .card-object.active {
     border-bottom: 2px solid #0072ce;
     margin-bottom: 10px;
+}
+/* COMING SOON TOP */
+.coming-soon-top {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/it-takes-two-hero-banner-desktop.jpg");;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px;
+}
+.coming-soon-top h3 {
+    margin: 25px 0px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.coming-soon-top img {
+    width: 150px;
 }
