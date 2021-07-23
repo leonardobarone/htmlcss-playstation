@@ -154,9 +154,19 @@ a {
     width: 600px;
 }
 .ps5-objects [class*="col"] {
-    border: 1px solid black;
-    margin: 12px 0px;
+    padding: 5px;
 }
-.ps5-objects img {
-    border: 1px solid red;
+.card-object {
+    height: 100%;
+    text-align: center;
+}
+.card-object img {
+    width: 150px;
+}
+.ps5-object-name {
+    font-size: 14px;
+}
+.card-object.active {
+    border-bottom: 2px solid #0072ce;
+    margin-bottom: 10px;
 }
