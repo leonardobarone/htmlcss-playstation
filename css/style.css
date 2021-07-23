@@ -172,6 +172,9 @@ a {
     border-bottom: 2px solid #0072ce;
     margin-bottom: 10px;
 }
+.card-object.inactive {
+    opacity: 0.5;
+}
 /* COMING SOON TOP */
 .coming-soon-top {
     color: white;
