@@ -28,6 +28,15 @@ a {
     background-color: white;
     border: 1px solid black;
 }
+.btn-blue {
+    color: white;
+    background-color: #2d64e6;
+}
+.btn-blue:hover {
+    color: #2d64e6;
+    background-color: white;
+    border: 1px solid black;
+}
 /* HEADER-TOP */
 .header-top {
     background-color: black;
@@ -102,7 +111,7 @@ a {
     background-position: center;
     padding-bottom: 50px;
 }
-.hero-top h2 {
+.hero-top h3 {
     margin: 25px 0px;
     font-size: 32px;
     font-weight: 500;
@@ -112,7 +121,7 @@ a {
 }
 /* HERO BOTTOM */
 .hero-bottom {
-    margin: 25px 0px 50px 0px;
+    margin: 25px 0px;
 }
 .hero-bottom img {
     border-radius: 15px;
@@ -124,4 +133,21 @@ a {
 }
 .hero-thumb-active {
     box-shadow: 0px 0px 0px 2px #0072cd;
+}
+/* PLAY STATION 5 */
+#play-station-5 .container-custom-ps5{
+    width: 75%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+}
+#play-station-5 .container-custom-ps5 .title-top {
+    color: #0072ce;
+    font-size: 12px;
+}
+#play-station-5 .container-custom-ps5 p {
+    color: gray;
+}
+.ps5 img {
+    width: 600px;
 }
