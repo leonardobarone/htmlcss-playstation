@@ -10,6 +10,24 @@ a {
     padding: 3px 9px;
     border-radius: 20px;
 }
+.btn-orange {
+    color: white;
+    background-color: #cd3d0f;
+}
+.btn-orange:hover {
+    color: #cd3d0f;
+    background-color: white;
+    border: 1px solid black;
+}
+.btn-gray {
+    color: white;
+    background-color: #363636;
+}
+.btn-gray:hover {
+    color: #363636;
+    background-color: white;
+    border: 1px solid black;
+}
 /* HEADER-TOP */
 .header-top {
     background-color: black;
@@ -27,7 +45,7 @@ a {
 .header-bottom .right a.account::after {
     vertical-align: middle;
     margin-left: 5px;
-    color: gray;
+    color: #999999;
     content: '\f078';
     font-family: "Font Awesome 5 Free";
     font-weight: 800;
@@ -64,15 +82,6 @@ a {
     color: black;
     font-size: 14px;
 }
-.btn-header {
-    color: white;
-    background-color: #363636;
-}
-.btn-header:hover {
-    color: #363636;
-    background-color: white;
-    border: 1px solid black;
-}
 .header-bottom .right i {
     vertical-align: middle;
 }
@@ -80,19 +89,39 @@ a {
 .header-right-desktop i {
     margin: 0px 5px;
 }
-/* HERO */
-#hero {
+/* HERO TOP */
+.hero-top {
     color: white;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     height: 500px;
     background-color: green;
     background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-bottom: 50px;
 }
-.btn-hero {
-    color: white;
-    background-color: #cd3d0f;
+.hero-top h2 {
+    margin: 25px 0px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.hero-top img {
+    height: 50px;
+}
+/* HERO BOTTOM */
+.hero-bottom {
+    margin: 25px 0px 50px 0px;
+}
+.hero-bottom img {
+    border-radius: 15px;
+}
+.hero-thumb {
+    margin: 12px 0px;
+    padding: 2px;
+    border-radius: 15px;
+}
+.hero-thumb-active {
+    box-shadow: 0px 0px 0px 2px #0072cd;
 }
