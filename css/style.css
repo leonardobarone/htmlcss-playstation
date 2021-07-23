@@ -109,13 +109,13 @@ a {
     display: flex;
     align-items: flex-end;
     height: 500px;
-    background-image: url("../img/jumbo-bg.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 50px;
 }
-.hero-top h3 {
+.hero-top h2 {
     margin: 25px 0px;
     font-size: 32px;
     font-weight: 500;
@@ -181,17 +181,29 @@ a {
     display: flex;
     align-items: flex-end;
     height: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/it-takes-two-hero-banner-desktop.jpg");;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/it-takes-two-hero-banner-desktop.jpg");;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 50px 0px;
 }
-.coming-soon-top h3 {
+.coming-soon-top h2 {
     margin: 25px 0px;
     font-size: 32px;
     font-weight: 500;
 }
 .coming-soon-top img {
     width: 150px;
+}
+/* COMING SOON BOTTOM */
+.coming-soon-bottom {
+    color: white;
+    background-color: #1f1f1f;
+    padding: 25px 0px;
+}
+.coming-soon-bottom img {
+    border-radius: 10px;
+}
+.coming-soon-title {
+    font-size: 12px;
 }
