@@ -207,6 +207,24 @@ a {
 .coming-soon-title {
     font-size: 12px;
 }
+/* SOCIAL */
+#social {
+    padding: 50px 0px;
+}
+#social img {
+    width: 200px;
+}
+#social h3 {
+    margin: 0px 0px 30px 0px;
+}
+#social [class*=col-6] {
+    padding: 10px;
+}
+#social .container-custom {
+        width: 90%;
+        max-width: 576px;
+        margin: 0 auto;
+}
 /* FOOTER */
 footer {
     background-color: #00439c;
