@@ -10,6 +10,14 @@ a {
     padding: 3px 9px;
     border-radius: 20px;
 }
+.btn-lightgray {
+    color: #3569e6;
+    background-color: #d9dadc;
+}
+.btn-lightgray:hover {
+    color: #d9dadc;
+    background-color: #3569e6;
+}
 .btn-orange {
     color: white;
     background-color: #cd3d0f;
@@ -225,10 +233,27 @@ main {
 .coming-soon-title {
     font-size: 12px;
 }
+/* PS PLUS */
+#ps-plus {
+    background-color: #bebcbb;
+}
+#ps-plus .ps-plus-logo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+#ps-plus .ps-plus-copertina {
+    width: 400px;
+}
+#ps-plus p {
+    font-size: 15px;
+}
 /* PS NOW */
 #ps-now {
     background-color: #161c3b;
     color: #ffffff;
+}
+#ps-now .ps-now-copertina {
+    width: 400px;
 }
 #ps-now .ps-now-logo {
     width: 300px;
