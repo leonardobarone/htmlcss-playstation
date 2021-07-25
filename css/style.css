@@ -19,6 +19,14 @@ a {
     background-color: white;
     border: 1px solid black;
 }
+.btn-white {
+    color: black;
+    background-color: white;
+}
+.btn-white:hover {
+    color: white;
+    background-color: #61ace4;
+}
 .btn-gray {
     color: white;
     background-color: #363636;
@@ -41,6 +49,16 @@ a {
     width: 75%;
     max-width: 800px;
     margin: 0 auto;
+}
+/* HEADER */
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+/* MAIN */
+main {
+    padding-top: 81px;
 }
 /* HEADER-TOP */
 .header-top {
@@ -206,6 +224,21 @@ a {
 }
 .coming-soon-title {
     font-size: 12px;
+}
+/* PS NOW */
+#ps-now {
+    background-color: #161c3b;
+    color: #ffffff;
+}
+#ps-now .ps-now-logo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+#ps-now p {
+    font-size: 15px;
+}
+#ps-now [class*="col-"] {
+    padding: 10px;
 }
 /* SOCIAL */
 #social {
