@@ -262,6 +262,17 @@ main {
 #ps-plus p {
     font-size: 15px;
 }
+/* PS STORE */
+#ps-store {
+    padding: 75px 0px;
+}
+#ps-store p {
+    font-size: 14px;
+    color: gray;
+}
+#ps-store img {
+    width: 300px;
+}
 /* PS NOW */
 #ps-now {
     background-color: #161c3b;
