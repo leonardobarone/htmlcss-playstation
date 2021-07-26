@@ -234,6 +234,20 @@ main {
 .coming-soon-title {
     font-size: 12px;
 }
+/* PS-4 */
+#ps-4 {
+    padding: 75px 10px;
+}
+#ps-4 p {
+    font-size: 14px;
+    color: gray;
+} 
+#ps-4 .title-top {
+    margin-bottom: 20px;
+}
+#ps-4 .container [class*="col-12"] {
+    margin: 15px 0px;
+}
 /* PS PLUS */
 #ps-plus {
     background-color: #bebcbb;
