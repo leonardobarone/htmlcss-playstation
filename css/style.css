@@ -7,7 +7,6 @@ a {
 }
 .btn {
     font-size: 14px;
-    padding: 3px 9px;
     border-radius: 20px;
 }
 .btn-lightgray {
@@ -58,16 +57,16 @@ a {
     max-width: 800px;
     margin: 0 auto;
 }
+/* MAIN */
+main {
+    padding-top: 100px;
+}
 /* HEADER */
 header {
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 10;
-}
-/* MAIN */
-main {
-    padding-top: 81px;
 }
 /* HEADER-TOP */
 .header-top {
@@ -77,58 +76,34 @@ main {
     width: 75px;
 }
 /* HEADER-BOTTOM */
-.header-bottom {
-    padding: 5px;
-    background-color: #ffffff;
-    border: 1px solid black;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
-.header-bottom .left li a::after,
-.header-bottom .right a.account::after {
-    vertical-align: middle;
-    margin-left: 5px;
-    color: #999999;
-    content: '\f078';
-    font-family: "Font Awesome 5 Free";
-    font-weight: 800;
-}
-/* LEFT */
-.header-bottom .play-logo {
-    width: 45px;
-}
-.header-bottom .left {
+.header-top {
+    background-color: #000;
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
+    padding: 12px 20px;
 }
-.header-bottom .left ul {
-    padding-left: 15px;
-    margin: 0px;
-    list-style: none;
-    font-size: 14px;
+.header-top img {
+    height: 15px;
 }
-.header-bottom .left li:not(:last-child) {
-    margin-right: 15px;
-}
-.header-bottom .left li a {
-    color: black;
-}
-/* RIGHT */
-.hamburger-menu {
-    font-size: 24px;
-    color: gray;
-    border: 1px solid lightgray;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-.header-bottom .right a {
+.header-bottom .navbar-light .navbar-nav .nav-link {
     color: black;
     font-size: 14px;
 }
-.header-bottom .right i {
+.header-bottom .dropdown-toggle::after {
+    content: url("../img/chevron-down-solid.svg");
+    width: 10px;
     vertical-align: middle;
+    border: none;
 }
-.header-right-desktop button,
-.header-right-desktop i {
-    margin: 0px 5px;
+
+.header-bottom .dropdown-toggle:hover::after {
+    content: url("../img/chevron-down-solid-hover.svg");
+}
+.header-bottom .lens {
+    height: 25px;
 }
 /* HERO TOP */
 .hero-top {
@@ -158,12 +133,17 @@ main {
     border-radius: 15px;
 }
 .hero-thumb {
+    transition: 0.5s;
+    cursor: pointer;
     margin: 12px 0px;
     padding: 2px;
     border-radius: 15px;
 }
 .hero-thumb-active {
     box-shadow: 0px 0px 0px 2px #0072cd;
+}
+.hero-thumb:not(.hero-thumb-active):hover {
+    transform: translate(0, -10px);
 }
 /* PLAY STATION 5 */
 #play-station-5 .container-custom{
@@ -201,6 +181,11 @@ main {
 }
 .card-object.inactive {
     opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card-object.inactive:hover {
+    opacity: 1;
 }
 /* COMING SOON TOP */
 .coming-soon-top {

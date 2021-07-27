@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-top {
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 20px;
+}
+.header-top img {
+    height: 15px;
+}
+.header-bottom .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 14px;
+}
+.header-bottom .dropdown-toggle::after {
+    content: url("../img/chevron-down-solid.svg");
+    width: 10px;
+    vertical-align: middle;
+    border: none;
+}
+
+.header-bottom .dropdown-toggle:hover::after {
+    content: url("../img/chevron-down-solid-hover.svg");
+}
+.header-bottom .lens {
+    height: 25px;
+}
